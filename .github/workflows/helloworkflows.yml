@@ -31,4 +31,4 @@ jobs:
       with:
         app-name: 'WebappGithupActionkms05'
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-        images: 'soldocminker/github-actions-app:${{ github.sha }}'
+        images: 'soldocminker/github-actions-app:latest'
